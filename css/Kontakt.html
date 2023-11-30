@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html sr-Latn-RS>
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="restoran, najbolja restoran, hrana, jela, degustacija, domaća hrana, kvalitetne namirnice">
+    <meta name="description" content="Najbolji restoran na ovim prostorima, kvalitetna hrana, pažljivo birane namirnice. Tradicija preko 20 godina. Pružamo udoban i fin odmor uz najbolju hranu.">
+    <link rel="shorcut icon" href="img/icon.png">
+    <title>Restoran Domaće Parče</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&amp;display=swap" rel="stylesheet">
+    <link rel="alternate" type="application/rss+xml" title="Feed" href="https://dusanict.github.io/restorandomaceparce/feed.xml" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="logo">
+                <a href="index.html">
+                    <img src="img/icon.png" alt="Logo">
+                </a>
+            </div>
+            <ul class="nav-desno">
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="ONama.html">O Nama</a></li>
+                <li><a href="Jelovni.html">Jelovnik</a></li>
+                <li><a href="KartaPica.html">Karta Pica</a></li>
+                <li><a href="Kontakt.html">Kontakt</a></li>
+                <li><a href="Galerija.html">Galerija</a></li>
+                <li><a href="OAutoru.html">O Autoru</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="kontakt-container">
+        <div class="rezervacija-forma">
+            <form action="procesiranje_rezervacije.php" method="post"id="forma1" name="f1">
+                <h2>Rezervišite Vaše mesto</h2>
+
+                <label for="ime">Ime:</label><br>
+                <input type="text" id="ime" name="ime" required placeholder="Dušan"><br>
+
+                <label for="prezime">Prezime:</label><br>
+                <input type="text" id="prezime" name="prezime" required placeholder="Karaklajić"><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required placeholder="dukik915@gmail.com"><br>
+
+                <label for="telefon">Telefon:</label><br>
+                <input type="tel" id="telefon" name="telefon" required placeholder="Vaš broj telefona"><br>
+
+                <label for="broj-osoba">Broj osoba:</label>
+                <input type="number" id="broj-osoba" name="broj-osoba" required>
+
+                <label for="datum">Datum:</label>
+                <input type="date" id="datum" name="datum" required>
+
+                <label for="vreme">Vreme:</label>
+                <input type="time" id="vreme" name="vreme" required>
+
+                <button type="submit">Rezerviši</button>
+            </form>
+        </div>
+
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.4060480085216!2d20.479371915726582!3d44.80612838219843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7a98d2b9a859%3A0x4b1463860cd66842!2sRuzveltova%204%2C%2011000%20Beograd!5e0!3m2!1sen!2srs!4v1637490104312!5m2!1sen!2srs" width="650" height="875" style="border:0;"  allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <footer>
+            <div class="futera">
+                <div class="svefuter">
+                    <div class="futernaslov">
+                        <h3>Kontakt</h3>
+                    </div>
+                    <p>Email: domaceparce@gmail.com</p>
+                    <p>Telefon: 032-5-894-789</p>
+                    <p>Adresa: Ruzveltova 4a, Beograd</p>
+                </div>
+                <div class="svefuter">
+                    <div class="flogo">
+                        <a href="index.html">
+                            <h1>Restoran Domaće Parče</h1>
+                        </a>
+                    </div>
+                    <div class="linkmreze">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <i class="fab fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.twitter.com/" target="_blank">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/en/" target="_blank">
+                            <i class="fab fa-tiktok" aria-hidden="true"></i>
+                        </a>
+                        <a href="rss.xml" target="_blank">
+                            <i class="fa-solid fa-rss" aria-hidden="true"></i>
+                        </a>
+                        <a href="sitemap.xml" target="_blank">
+                            <i class="fa-solid fa-sitemap" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="svefuter">
+                    <div class="brzilinkovi">
+                        <h3>Brzi Linkovi</h3>
+                    </div>
+                    <div class="linkovifuter">
+                        <ul>
+                            <li><a href="index.html">Početna</a></li>
+                            <li><a href="ONama.html">O Nama</a></li>
+                            <li><a href="Jelovni.html">Jelovnik</a></li>
+                            <li><a href="KartaPica.html">Karta Pica</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="svefuter">
+                    <div class="brzilinkovi2">
+                        <h3>Brzi Linkovi</h3>
+                    </div>
+                    <div class="linkovifuter">
+                        <ul>
+                            <li><a href="Kontakt.html">Kontakt</a></li>
+                            <li><a href="Galerija.html">Galerija</a></li>
+                            <li><a href="OAutoru.html">O Autoru</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
