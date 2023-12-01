@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Restoran Domaće Parče</title>
+    <link>https://dusanict.github.io/restorandomaceparce/</link>
+    <description>Restoran Domaće Parče - Sveža domaća hrana sa ukusom.</description>
+
+    <item>
+      <title>Početna</title>
+      <link>https://dusanict.github.io/restorandomaceparce/</link>
+      <description>Dobrodošli na početnu stranicu Restorana Domaće Parče.</description>
+      <pubDate>Thu, 30 Nov 2023 12:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>O Nama</title>
+      <link>https://dusanict.github.io/restorandomaceparce/o-nama.html</link>
+      <description>Saznajte više o restoranu Domaće Parče.</description>
+      <pubDate>Thu, 30 Nov 2023 12:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>Jelovnik</title>
+      <link>https://dusanict.github.io/restorandomaceparce/jelovnik.html</link>
+      <description>Pregledajte naš jelovnik sa raznovrsnim specijalitetima.</description>
+      <pubDate>Thu, 30 Nov 2023 12:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>Karta Pića</title>
+      <link>https://dusanict.github.io/restorandomaceparce/karta-pica.html</link>
+      <description>Istražite našu bogatu kartu pića sa najkvalitetnijim vinima i napicima.</description>
+      <pubDate>Thu, 30 Nov 2023 12:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>Kontakt</title>
+      <link>https://dusanict.github.io/restorandomaceparce/kontakt.html</link>
+      <description>Kontaktirajte nas za rezervacije ili dodatne informacije.</description>
+      <pubDate>Thu, 30 Nov 2023 12:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>Galerija</title>
+      <link>https://dusanict.github.io/restorandomaceparce/galerija.html</link>
+      <description>Pregledajte galeriju slika iz našeg restorana.</description>
+      <pubDate>Thu, 30 Nov 2023 12:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>O Autoru</title>
+      <link>https://dusanict.github.io/restorandomaceparce/o-autoru.html</link>
+      <description>Saznajte više o autoru ovog sajta.</description>
+      <pubDate>Thu, 30 Nov 2023 12:00:00 GMT</pubDate>
+    </item>
+
+  </channel>
+</rss>

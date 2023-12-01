@@ -1,0 +1,563 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f5dc;
+
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Dancing Script', cursive;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+div{
+    display: block;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.8); 
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo img {
+    max-width: 100px;
+}
+
+.nav-desno {
+    list-style: none;
+    display: flex;
+}
+
+.nav-desno li {
+    margin: 0 15px;
+}
+
+.nav-desno a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-desno a:hover {
+    color: #ffd700;
+}
+#iza {
+    width: 100%;
+    height: 820px;
+    background-image: url(../img/jelo9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center bottom;
+}
+#block {
+    height: inherit;
+    position: relative;
+}
+.bg {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#naslov-slike {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 2; 
+    color: white;
+    text-align: center;
+}
+
+#naslov-slike h1 {
+    text-transform: uppercase;
+    font-size: 70px;
+    margin: 0;
+}
+
+.sve{
+    width: 90%;
+    margin: 0px auto;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.PonudaDana {
+    text-align: center;
+    margin: 40px auto;
+    font-size: 20px;
+    color: #ffd700;
+    text-transform: uppercase;
+    padding-top: 50px;
+    animation: fadeIn 1s ease-out;
+}
+.Spec {
+    text-align: center;
+    margin: 0px auto;
+    height: 50px;
+    width: 400px;
+    font-size: 40px;
+    padding-bottom: 70px;
+}
+.naslov {
+    text-align: center;
+    margin: 200px 0;
+    font-size: 40px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -80px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    margin: 10px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+    padding: 15px;
+}
+.kuvare {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.row-kuvare {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -20px;
+}
+
+.card-kuvare {
+    border: 1px solid #ddd;
+    margin: 30px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-kuvare:hover {
+    transform: scale(1.05);
+}
+
+.card-kuvare img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+    padding: 15px;
+}
+
+.dugme {
+    background-color: #ffcc00; 
+    color: #fff; 
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+.dugme a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.dugme:hover {
+    background-color: #0056b3; 
+}
+.namirnice-sekcija {
+    display: flex;
+    margin: 40px 0; 
+}
+
+.namirnice-slika img {
+    width: 600px; 
+    height: auto;
+    transition: transform 0.5s ease; 
+}
+
+.namirnice-slika img:hover {
+    transform: rotate(360deg); 
+}
+.namirnice-tekst {
+    padding: 0 20px;
+}
+
+.namirnice-tekst h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.namirnice-tekst p {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.dugme2 {
+    background-color: #ffd700;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.dugme2 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.dugme2:hover {
+    background-color: #0056b3;
+}
+.naslov2{
+    text-align: center;
+    margin: 200px 0;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.row-recenzije {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.recenzija {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    border-left: 1px solid #ddd; 
+    padding-left: 20px; 
+}
+
+.recenzent-slika {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.recenzija-tekst {
+    flex-grow: 1;
+}
+
+footer{
+        background-color: #333333;
+        color: #ffffff;
+        padding: 20px 0; 
+        clear: both; 
+        width: 100%; 
+}
+.futera{
+    display: flex;
+    align-items: center;
+    padding: 25px 0px;
+    width: 1200px;
+    margin: 0px auto;
+    color: #fff;
+}
+.svefuter{
+    width: 25%;
+    text-align: center;
+}
+.futernaslov h3, p{
+    text-align: left;
+}
+.flogo h1, a{
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+.flogo h1:hover {
+    color: #ffd700;
+}
+.flogo a:hover {
+    color: #ffd700;
+}
+.linkmreze{
+    margin: 20px 0px 20px 20px;
+}
+.linkmreze a:hover {
+    color: #ffd700;
+}
+
+.linkovifuter a{
+ 
+    color: #fff;
+    text-decoration: none;
+}
+.linkovifuter a:hover {
+    color: #ffd700;
+}
+.autor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.autor-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.autor-info {
+    max-width: 500px;
+}
+
+.autor-slika {
+    width: 100%;
+    border-radius: 50%;
+    transition: filter 0.5s ease;
+}
+
+.autor-slika:hover {
+    filter: grayscale(100%);
+}
+
+.autor-info h2 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+}
+.kontakt-container {
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.rezervacija-forma {
+    width: 45%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.rezervacija-forma h2 {
+    text-align: center;
+}
+
+form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+.mapa{
+    width: 45%;
+    margin: 20px auto;
+}
+.galerija {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.slika4 {
+    position: relative;
+    width: 30%; 
+    margin: 10px;
+}
+
+.slika4 img {
+    width: 100%;
+    height: 350px;
+    display: block;
+}
+
+.tekst2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.slika4:hover .tekst2 {
+    opacity: 1;
+}
+#menu {
+    background-color: #f8f8f8; 
+    position: relative;
+}
+.heading1 {
+    text-align: center;
+    margin: 30px auto;
+    font-size: 12px;
+    color: #C4AE78;
+    text-transform: uppercase;
+    padding-top: 50px;
+    animation: 1s ease-out 0s 1 slideInLeft;
+}
+.heading2 {
+    text-align: center;
+    margin: 0px auto;
+    height: 50px;
+    width: 500px;
+    font-size: 30px;
+    padding-bottom: 80px;
+}
+.ceomeni {
+    margin-left: 9.5%;
+    margin-right: 4%;
+}
+.blokmeni {
+    background-color: #ffffff; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+.meninaslov h3 {
+    font-size: 40px; 
+    color: #333333; 
+}
+.menitekst h4 {
+    font-size: 28px; 
+    color: #555555; 
+}
+
+.menitekst p {
+    margin: 5px 0; 
+    color: #777777; 
+}
+
+.cena {
+    font-weight: bold; 
+    color: #ff6600; 
+}
+.restoran {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.textrestoran {
+    width: 40%;
+    font-size: 25px;
+}
+
+.imgrestoran {
+    width: 50%; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.imgrestoran img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.imgrestoran:hover {
+    transform: scale(1.1);
+}
+.svecanasala {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.salatekst {
+    width: 40%;
+    font-size: 25px;
+}
+
+.salaimg {
+    width: 50%; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.salaimg img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.salaimg:hover {
+    transform: scale(1.1);
+}
